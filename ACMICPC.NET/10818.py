@@ -1,4 +1,5 @@
 import sys
-N = int(input())
+_ = int(input())
 nums = list(map(int,sys.stdin.readline().split()))
+
 print(min(nums), max(nums))
